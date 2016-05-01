@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - nuversity@localhost" uuid="7bb2ed40-db21-46db-a3be-e02a2139446a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>nu_admin</user-name>
+      <schema-pattern>nuversity.*</schema-pattern>
+      <default-schemas>nuversity.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - nuversity@107.180.56.141" uuid="712c351e-5e77-47e9-9e71-91b5f857d958">
+      <secret-storage>master_key</secret-storage>
+      <user-name>adminH</user-name>
+      <schema-pattern>nuversity.*</schema-pattern>
+      <default-schemas>nuversity.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--[if lte IE 8]><script src="js/index/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="css/workspace/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/workspace/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/workspace/ie9.css" /><![endif]-->
+
+    <link rel="stylesheet" href="css/index/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/index/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/index/ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="css/site.css">
+
+    <!-- Captcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+
+<div id="page-wrapper" style="padding: 0;">
+
+    <!-- Header -->
+    <header>
+        <h1 id="logo"><a href="index.php">Nuversity</a></h1>
+    </header>
+
+    <section>
+        <div class="container" >
+
+            <header>
+                <h2>Sign-up</h2>
+            </header>
+
+            <form id="signup" method="post">
+                <div class="row">
+                    <div class="10u 12u$(mobile)"><input id="username" type="text" name="username" placeholder="Username" required/></div>
+                    <div class="6u 12u$(mobile)"><input class="password" id="password" type="password" name="password" placeholder="Password" required/></div>
+                    <div class="6u 12u$(mobile)"><input class="password" id="confirm" type="password" name="password" placeholder="Confirm Password" required/></div>
+                    <div id="error" class="8u 12u$(mobile)" style="display:none;"></div>
+                    <div class="6u 12u$(mobile)"><input type="text" name="first" placeholder="First Name" required/></div>
+                    <div class="6u$ 12u$(mobile)"><input type="text" name="last" placeholder="Last Name" required/></div>
+                    <div class="6u 12u$(mobile)"><input type="text" name="email" placeholder="Email" required/></div>
+                    <div class="6u$ 12u$(mobile)"><input type="text" name="phone" placeholder="Phone Number" required/></div>
+                    <div class="g-recaptcha" data-sitekey="6LeA4xoTAAAAANtxjDaJDxcjzBU5DJ6kBqKBO7Pw"></div>
+                    <div class="12u$">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+
+</div>
+
+<!-- Scripts -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/jquery.scrolly.min.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/jquery.scrollex.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/util.js"></script>
+<!--[if lte IE 8]><script src="js/index/ie/respond.min.js"></script><![endif]-->
+<script src="js/index/main.js"></script>
+<script src="js/signup.js"></script>
+</body>
+</html>

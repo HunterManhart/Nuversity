@@ -1,0 +1,111 @@
+#header .reveal {
+  -moz-animation: reveal-header 0.5s;
+  -webkit-animation: reveal-header 0.5s;
+  -ms-animation: reveal-header 0.5s;
+  animation: reveal-header 0.5s; }
+
+@media screen and (max-width: 700px) {
+  html {
+    cursor: pointer; } }
+
+.row * {
+  padding: 1em; }
+.row input {
+  color: black; }
+
+#page-wrapper {
+  padding-top: 3.5em;
+  min-height: 100vh; }
+
+.wrapper.style2 {
+  background: #39c088; }
+
+#login {
+  display: none;
+  position: absolute;
+  left: -8em; }
+  @media screen and (min-width: 700px) {
+    #login {
+      left: -16em; } }
+
+#button-signup {
+  color: white !important;
+  min-width: 4em; }
+
+#main {
+  margin-left: 0;
+  height: auto; }
+
+#signout {
+  float: left;
+  margin-left: 6em !important; }
+
+.white {
+  background-color: white; }
+
+#tab-content {
+  height: calc(100vh - 3.5em); }
+
+#workspace {
+  height: 100%;
+  color: black; }
+  #workspace textarea {
+    width: 100%;
+    min-height: 5em; }
+  #workspace .question {
+    padding-bottom: 2em; }
+  #workspace section {
+    text-align: left; }
+    #workspace section:empty {
+      display: none; }
+  #workspace #top {
+    min-height: 100%; }
+
+#topbar {
+  background: _palette(accent2-transparent);
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+  cursor: default;
+  height: 3.5em;
+  left: 0;
+  line-height: 3.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  #topbar h1 {
+    height: inherit;
+    left: 1.25em;
+    line-height: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0; }
+  #topbar nav {
+    position: absolute;
+    right: 1em;
+    top: 0; }
+    #topbar nav ul {
+      margin: 0; }
+      #topbar nav ul li {
+        display: inline-block;
+        margin-left: 1em; }
+        #topbar nav ul li form {
+          margin-bottom: 0; }
+        #topbar nav ul li a, #topbar nav ul li span {
+          border: 0;
+          color: inherit;
+          display: inline-block;
+          height: 3.5em;
+          line-height: inherit;
+          outline: 0; }
+          #topbar nav ul li a.button, #topbar nav ul li span.button {
+            height: 2em;
+            line-height: 2em;
+            padding: 0 1.25em; }
+          #topbar nav ul li a:not(.button):before, #topbar nav ul li span:not(.button):before {
+            margin-right: 0.5em; }
+        #topbar nav ul li.active > a, #topbar nav ul li.active > span {
+          color: _palette(accent1); }
+        #topbar nav ul li > ul {
+          display: none; }
+
+/*# sourceMappingURL=site.css.map */
